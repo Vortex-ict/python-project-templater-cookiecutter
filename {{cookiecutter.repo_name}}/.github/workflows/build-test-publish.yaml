@@ -108,6 +108,9 @@ jobs:
       - name: Install twine
         run: |
           pip install twine
+      # remarked this part to prevent unnecessary publishing to PyPI during development
+      # remove the remark to enable publishing to PyPI when done with development
+
       # - name: Publish to TestPyPI
       #   run: |
       #     /bin/bash -x run.sh publish:test

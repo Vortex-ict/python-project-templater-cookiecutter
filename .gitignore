@@ -176,4 +176,3 @@ dist
 *.env
 *cache*
 sample
-.DS_Store
